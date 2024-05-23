@@ -11,7 +11,7 @@ const OrderStatusPage = () => {
   }
 
   if (!orders || orders.length === 0) {
-    return "No orders found";
+    return "No orders are found";
   }
 
   return (
